@@ -13,12 +13,13 @@ public class TestCuenta {
         System.out.println(cuenta2);
         cuenta2.depositar(3000);
         cuenta2.extraer(1000);
-        cuenta2.cobrarInteres(2500);
+        System.out.println(cuenta2.getSaldo());
 
         CuentaCorriente cuenta3 = new CuentaCorriente(234, 12000, 403000);
         System.out.println(cuenta3);
         cuenta3.depositar(3000);
         cuenta3.extraer(1000);
+        System.out.println(cuenta3.getSaldo());
 
 
      }

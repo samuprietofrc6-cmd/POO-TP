@@ -12,7 +12,7 @@ public class TestCliente {
     ClienteEmpresa cliente2 = new ClienteEmpresa(2345, "302782837", "florestarugby");
     System.out.println(cliente2);
       
-    ClienteIndividual cliente3 = new ClienteIndividual(3678,"samuel","prieto",40937087);
+    ClienteIndividual cliente3 = new ClienteIndividual(3678,"samuel","prieto","40937087");
     System.out.println(cliente3);
       
 }
